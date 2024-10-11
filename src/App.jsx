@@ -17,22 +17,28 @@ function App() {
   
 
   return (
-    <div>
-      {/* <VideoAndImgCard thumbImage='first.png'/> */}
-      <div className='  '><AlabayHistory/></div>
-      <div className='h-full w-200 '><Gallery/></div>
-      <h1 className="text-6xl font-bold text-yellow-900 mb-6 flex justify-center py-24">PROJECT VISION</h1>
+    <div className='bg-black '>
+        <div className=' md:w-1/2 pt-96 md:ml-96 '>
+        {/* <VideoAndImgCard thumbImage='first.png'/> */}
+        <div className='bg-white rounded-xl shadow-2xl'>
+          <div className='  '><AlabayHistory/></div>
+          <div className='h-full w-200 '><Gallery/></div>
+          <h1 className="text-6xl font-bold text-yellow-900 mb-6 flex justify-center py-24">PROJECT VISION</h1>
+          
+            
+          <div><Combined/></div>
+          <div className='mx-4'><CardGrid/></div>
+        
+          <div className="mt-44 ">
+            <Tokenomics />
+          </div>
+        </div>
+        
       
         
-      <div><Combined/></div>
-      <div className='mx-4'><CardGrid/></div>
-     
-      <div className="mt-44 ">
-        <Tokenomics />
       </div>
-     
-      
     </div>
+    
   )
 }
 

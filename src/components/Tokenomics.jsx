@@ -47,7 +47,7 @@ const TokenomicsCard = () => {
     </div>
     </div>
     
-    <div className='relative  bg-white h-screen flex items-center justify-center overflow-hidden'>
+    <div className='relative  bg-white h-72 flex items-center justify-center overflow-hidden'>
         <div className="absolute  top-0 left-0 w-[300%] h-72 transform skew-y-12 bg-yellow-300 z-0"></div>
     </div>
     <div className=" ">
